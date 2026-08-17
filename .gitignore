@@ -1,0 +1,60 @@
+# Veracode files
+.veracode/output
+*results*.json
+scan_results.csv
+
+# Maven build
+target/
+*.jar
+*.war
+*.ear
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+*.iml
+.classpath
+.project
+.settings/
+*.user
+*.suo
+
+# Java
+*.class
+*.classpath
+.java-version
+.gradle/
+*.log
+
+# Database
+*.sql.bak
+*.sql~
+*.backup
+dump.sql
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+application-local.yml
+application-dev.yml
+
+# OS
+Thumbs.db
+.DS_Store
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.log
